@@ -1,0 +1,25 @@
+.odd_number {
+    background-color: rgb(255, 0, 98);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#number_2 {
+    color: rgb(0, 100, 255);
+    font-size: 36px;
+}
+
+#number_4 {
+    background-color: rgb(0, 200, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.odd_number.specific_font {
+    font-size: 24px;
+}
+
+
+* **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` as the first option and `sans-serif` as a fallback
+* **The second element**: blue text and a font size of 36px
+* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
+* **The fourth element**: a light green background, a font size of 24px, and bold
